@@ -5,7 +5,7 @@ module "eks" {
   subnets         = module.vpc.private_subnets
 
   tags = {
-    Name = "${local.cluster_name}"
+    Name = "eks-demo-cluster"
   }
 
   vpc_id = module.vpc.vpc_id

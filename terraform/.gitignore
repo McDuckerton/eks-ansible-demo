@@ -30,3 +30,6 @@ override.tf.json
 
 # Ignore terraform lock file
 *terraform.lock.hcl
+
+# Ignore KUBECONFIG files
+*kubeconfig*
